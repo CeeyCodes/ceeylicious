@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+.menu{
+    background-color: #101318;
+    color: white; 
+    padding: 100px 100px;
+    border-bottom: solid #1E1E1E 0.5px;
+}
+
+.menu .menu-text{
+    display: flex;
+    flex-direction: center;
+    gap: 20px;
+    margin-left: 490px;
+}
+
+.menu .menu-text .popular{
+    color: white;
+    font-size: 48px;
+}
+
+.menu .menu-text .popular2{
+    color: #F6741B;
+    font-size: 48px;
+}
+
+.menu .dis{
+    font-size: 18px;
+    width: 600px;
+    text-align: center;
+    margin-left: 380px;
+    margin-top: 30px;
+    line-height: 1.8;
+}
+
+.slider{
+    margin: 50px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+    animation-name: ceeylicious;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.grid-menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.grid-menu .menu-cards{
+    background-color: white;
+    color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 400px;
+    margin-top: 50px;
+}
+
+.menu-cards{
+    display: grid;
+}
+
+.menu-cards:hover{
+    transition: ease-in 0.5s;
+    transform: scale(1.10);
+}
+
+.menu-cards img{
+    width: 400px;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.menu-cards h5{
+    padding: 15px 0px 0px 20px;
+    font-size: 20px;
+}
+
+.menu-cards p{
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.menu-cards .price{
+    padding: 5px;
+    gap: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header .add{
+    padding: 6px 6px;
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    border-color: #F6741B;
+    background-color: #F6741B;
+    color: white;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+header .add:hover{
+    background-color: white;
+    color: #F6741B;
+}
+
+
+
+@keyframes ceeylicious{
+    0%{
+        background-image:url(Images/food1.webp);
+    }
+
+    20%{
+        background-image:url(Images/food2.jpg) ;
+    }
+
+    20.1%{
+        background-image:url(Images/food3.jpg) ;
+    }
+
+    40%{
+        background-image:url(Images/food4.webp) ;
+    }
+
+    40.1%{
+        background-image:url(Images/food5.webp) ;
+    }
+
+    60%{
+        background-image:url(Images/food6.jpg) ;
+    }
+
+    60.1%{
+        background-image:url(Images/food7.jpg) ;
+    }
+
+    80%{
+        background-image:url(Images/food8.jpg) ;
+    }
+
+    80.1%{
+        background-image:url(Images/food9.webp) ;
+    }
+
+    100%{
+        background-image:url(Images/food10.webp) ;
+    }
+}
+
+/* Media query */
+@media screen and (max-width:850px) {
+    .menu{
+        padding-left: 50px;
+    }
+
+    .menu .menu-text{
+        display: block;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .menu .menu-text .popular{
+        margin-left: 50px;
+    }
+
+    .menu .menu-text .popular2{
+        margin-left: 50px;
+    }
+
+    .menu .dis{
+        width: 450px;
+        margin-left: 0px;
+    }
+
+    .slider{
+        height: 40vh;
+        width: 450px;
+    }
+
+    .grid-menu{
+        display: block;
+    }
+
+    .grid-menu .menu-cards{
+        width: 450px;
+    }
+
+    .menu-cards img{
+    width: 450px;
+    height: 280px;
+    }
+
+    .menu-cards h5{
+        padding-left: 10px;
+    }
+
+    .menu-cards p{
+        padding-left: 10px;
+    }
+
+    .menu-cards .price{
+        gap: 200px;
+    }
+}
