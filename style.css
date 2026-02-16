@@ -613,6 +613,11 @@ footer .copyright{
     .menu-cards h5{
         padding-left: 20px;
     }
+
+    section .btn-pry{
+        margin-left: 130px;
+        margin-bottom: 50px;
+    }
     /* Menu ends here */
 
     /* Contact starts here */
