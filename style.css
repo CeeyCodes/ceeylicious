@@ -545,8 +545,8 @@ footer .copyright{
     }
 
     .hero img{
-        width: 400px;
-        height: 350px;
+        width: 320px;
+        height: 320px;
         margin-left: 0;
     }
 
@@ -577,30 +577,41 @@ footer .copyright{
 
     .menu .menu-text{
         display: flex;
-        margin-left: 90px;
+        margin-left: 30px;
     }
 
-    /* .menu .menu-text .popular{
-        margin-left: 120px;
+    .menu .menu-text .popular{
+        margin-left: 0px;
         margin-bottom: 10px;
     }
 
     .menu .menu-text .popular2{
-        margin-left: 140px;
-    } */
+        margin-left: 0px;
+        text-align: center;
+    }
 
     .menu .dis{
-        margin-left: 45px;
+        margin-left: 0px;
         width: 400px;
     }
 
     .grid-menu{
         display: block;
-        margin-left: 120px;
+        margin-left: 30px;
     }
 
-    section .btn-pry{
-        margin: 30px 0px 30px 210px;
+    .grid-menu .menu-cards{
+        width: 330px;
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+    .menu-cards img{
+        width: 330px;
+    }
+
+    .menu-cards h5{
+        padding-left: 20px;
     }
     /* Menu ends here */
 
@@ -616,7 +627,7 @@ footer .copyright{
     }
 
     .contact .contact-text .popular{
-        margin-left: 120px;
+        margin-left: 50px;
         margin-bottom: 10px;
     }
 
@@ -627,8 +638,8 @@ footer .copyright{
     }
 
     .contact .dis{
-        margin-left: 80px;
-        width: 400px;
+        margin-left: 50px;
+        width: 300px;
     }
 
     .contact-body{
@@ -637,19 +648,19 @@ footer .copyright{
     }
 
     .contact-body .form input{
-        width: 480px;
+        width: 360px;
     }
 
     .contact-body .form textarea{
-        width: 480px;
+        width: 360px;
     }
 
     .form .submit-btn{
-        width: 480px;
+        width: 360px;
     }
 
     .contact-body .details{
-    margin-left: 120px;
+    margin-left: 50px;
     }
 
     .contact-us{
@@ -659,7 +670,7 @@ footer .copyright{
 
     /* Footer starts here */
     footer img{
-        margin-left: 200px;
+        margin-left: 50px;
     }
 
     .footer-wrap{
@@ -668,7 +679,7 @@ footer .copyright{
     }
 
     .footer-links{
-        margin-left: 200px;
+        margin-left: 50px;
     }
 
     .footer-socials{
