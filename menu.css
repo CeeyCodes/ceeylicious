@@ -196,13 +196,13 @@ header .add:hover{
     }
 
     .menu .dis{
-        width: 400px;
+        width: 350px;
         margin-left: 0px;
     }
 
     .slider{
         height: 40vh;
-        width: 400px;
+        width: 350px;
     }
 
     .grid-menu{
@@ -210,11 +210,11 @@ header .add:hover{
     }
 
     .grid-menu .menu-cards{
-        width: 400px;
+        width: 350px;
     }
 
     .menu-cards img{
-    width: 400px;
+    width: 350px;
     height: 280px;
     }
 
@@ -227,6 +227,6 @@ header .add:hover{
     }
 
     .menu-cards .price{
-        gap: 170px;
+        gap: 120px;
     }
 }
