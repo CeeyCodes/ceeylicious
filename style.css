@@ -486,8 +486,12 @@ footer .copyright{
 
 
 /* Media query */
-@media screen and (max-width:850px) {
+@media screen and (max-width:480px) {
     /* Header starts here */
+    body{
+        overflow-x: hidden;
+    }
+    
     .nav-links li{
         display: none;
     }
